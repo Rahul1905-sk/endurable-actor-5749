@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+*{
+    font-family: sans-serif;
+}
+
+* ::selection{
+    color:white;
+    background-color:#D7282F;
+}
+
+#header {
+   width:90%;
+   margin:auto;
+   text-align: center;
+}
+
+#headerImg{
+    width:38%;
+    margin:auto;
+}
+#headerImg>img{
+    width:100%;
+    margin:auto;
+}
+
+#navbar a{
+    padding:0px 16px;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+#navbar a:hover{
+    color:#D7282F;
+    
+}
+
+#navbar>img{
+    width:20px;
+    padding:0px 10px;
+   
+}
+#mid{
+    width:80%;
+    margin:auto;
+    margin-top:120px;
+}
+
+#part1{
+    width:58%;
+    line-height: 150%;
+    
+}
+
+#part1 h3{
+    font-size: 28px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 3px;
+    
+}
+#part1>#line{
+    width:8%;
+    border:1.25px solid red;
+    background-color:#D7282F;
+
+}
+/* body {
+    background-image: url('https://sparkamerica.com/wp-content/uploads/2020/12/HomeHeader1.jpg');
+} */
+
+#clrline{
+    width:90%;
+    
+
+}

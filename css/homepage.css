@@ -1,0 +1,283 @@
+
+#mid{
+    width:80%;
+    margin:auto;
+    margin-top:120px;
+}
+
+#part1{
+    width:58%;
+    line-height: 150%;
+    border:2px solid red;
+    
+}
+
+#part1 h3{
+    font-size: 28px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 3px;
+   
+    
+}
+#part1>#line{
+    width:8%;
+    border:1.25px solid red;
+    background-color:#D7282F;
+
+}
+
+#clrline{
+    display: flex;
+    /* margin-top:150px; */
+
+    justify-content: center;
+    width:100%;
+    margin-top: -4px;
+    
+
+}
+#clrline>img {
+    width:100%;
+}
+
+#headerbackgroundImg{
+
+    width:100%;
+    margin:auto;
+}
+#headerbackgroundImg>img{
+    width:100%;
+    
+}
+#container {
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-image: linear-gradient(90deg, white, rgba(255,255,255,0));
+   height:142%;
+   border: 2px solid red;
+}
+
+/* \\ Spark section\\ */
+
+
+#spark{
+    width:75%;
+    display:flex;
+    justify-content: space-around;
+    margin:auto;
+    margin-top:80px;
+    /* border:2px solid blue; */
+}
+
+ #part2a{
+    width:48%;
+
+    line-height: 150%;
+    /* border:2px solid red; */
+    
+}
+
+#part2a h3{
+    font-size: 28px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 3px;
+   
+    
+}
+#part2a>.line2{
+    width:14%;
+    border:1.25px solid red;
+    background-color:#D7282F;
+
+} 
+
+
+#part2a>div>img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#part2a>p{
+    width:90%;
+}
+
+#part2a>button{
+    color:white;
+    background-color: #D7282F;
+    border:none;
+    padding:15px 30px;
+    border-radius: 30px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+  
+}
+
+#part2a>button>i{
+    padding-left: 10px;
+}
+
+
+/* // part2b // */
+
+
+#part2b{
+    width:48%;
+
+    line-height: 150%;
+    /* border:2px solid red; */
+    
+}
+
+#part2b h3{
+    font-size: 28px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 3px;
+   
+    
+}
+#part2b>.line2{
+    width:14%;
+    border:1.25px solid red;
+    background-color:#D7282F;
+
+} 
+
+
+#part2b>div>img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#part2b>p{
+    width:93%;
+}
+
+#part2b>button{
+    color:white;
+    background-color: #D7282F;
+    border:none;
+    padding:15px 30px;
+    border-radius: 30px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#part2b>button>i{
+    padding-left: 10px;
+}
+
+/* //  wheelchairImg Section // */
+
+#part3{
+    width:100%;
+    line-height: 150%;
+}
+#wheelchairImg {
+    background-image: url("../Images/homepage/wheelchair.jpg");
+    height:400px;
+    margin-bottom: 10px;
+}
+
+#part3 h3{
+    font-size: 28px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 3px;
+   
+    
+}
+#part3>.line2{
+    width:14%;
+    border:1.25px solid blue;
+    background-color:blue;
+
+} 
+#part3>p{
+    width:100%;
+    
+}
+
+#part3>button{
+    color:white;
+    background-color: #D7282F;
+    border:none;
+    padding:15px 30px;
+    border-radius: 30px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#part3>button>i{
+    padding-left: 10px;
+}
+
+
+/* //  part4 Section // */
+
+#part4{
+    border: 2px solid blue;
+    width:75%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5px;
+}
+
+#part4a{
+    /* width:100%; */
+    line-height: 150%;
+}
+
+#part4a h3{
+    width:95%;
+    line-height: 40px;
+    font-size: 28px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 3px;
+   
+    
+}
+#part4a>.line2{
+    width:14%;
+    border:1.25px solid #D7282F;
+    background-color:#D7282F;
+
+} 
+#part4a>p{
+    width:92%;
+    
+}
+
+#part4a>button{
+    color:white;
+    background-color: #D7282F;
+    border:none;
+    padding:15px 30px;
+    border-radius: 30px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#part4b{
+    width:95%;
+
+}
+#part4b>img{
+    width:100%;
+    margin-bottom: 20px;
+}
+#part4c{
+    width:95%;
+    
+}
+#part4c>img{
+    width:100%;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,189 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+*{
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+* ::selection{
+    color:white;
+
+    background-color:#D7282F;
+}
+#header{
+    margin-bottom: 30px;
+}
+
+#line{
+    width:58%;
+    margin:auto;
+    border:1.15px solid red;
+    background-color:#D7282F;
+
+}
+
+#top{
+    width:71%;
+    margin:auto;
+    margin-top:50px;
+}
+
+#part1{
+    line-height: 150%;
+    
+}
+
+#part1 h3{
+    font-size: 28px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 2px;
+   
+    
+}
+#part1>.line{
+    width:15%;
+    border:1.25px solid red;
+    background-color:#D7282F;
+
+}
+ 
+/* // bottom section //  */
+
+
+
+#bottom{
+    width:70%;
+    margin:auto;
+   
+    
+}
+
+#bottom>#part1{
+    line-height: 150%;
+    width:100%;
+    margin-top: 30px;
+    margin-left:30px;
+}
+
+#bottom>#part1>h2{
+    font-size: 25px;
+    font-family:sans-serif;
+    letter-spacing: -1px;
+    font-weight: bolder;
+    margin-top: 20px;   
+    
+}
+#bottom>#part1>.line{
+    width:15%;
+    border:1.25px solid red;
+    background-color:#D7282F;
+    padding-left: 20px;
+}
+
+.highlight{
+    font-weight: bolder;
+}
+#part1>p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#uldiv{
+    width:70%;
+    margin:auto;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#uldiv>ul{
+    margin-top: 0px;
+    padding-top: 0px;
+     margin-left:-10px;
+    padding-bottom: 10px;
+}
+#registerdiv{
+    font-weight: bold;
+    width:15%;
+    margin:auto;   
+}
+
+#registerdiv>button {
+    font-weight: bold;
+    background-color: #0082CA;
+    color:white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+}
+#registerdiv>button>i{
+    padding-right:10px;
+}
+#registerdiv :hover{
+    color:#ffd400;
+ 
+}
+
+#registerP>p{
+    width:70%;
+    margin:auto;
+    padding:30px;
+}
+#downloadDiv{
+    font-weight: bold;
+    width:23%;
+    margin:auto;
+}
+
+#downloadDiv>button {
+    font-weight: bold;
+    background-color: #0082CA;
+    color:white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+}
+#downloadDiv>button>i{
+    padding-right:10px;
+}
+#downloadDiv :hover{
+    background-color: #ff8300;
+border:1px solid #f37700
+ 
+}
+
+
+#bottom2{
+    width:70%;
+    margin:auto;
+   
+    
+}
+
+#bottom2>#part1{
+    line-height: 150%;
+    width:100%;
+    margin-top: 30px;
+    
+}
+
+#bottom2>#part1>h2{
+    font-size: 25px;
+    font-family:sans-serif;
+    letter-spacing: -1px;
+    font-weight: bolder;
+    margin-top: 20px;   
+}
+#bottom2>#part1>.line{
+    width:12%;
+    border:1.25px solid red;
+    background-color:#D7282F;
+    padding-left: 20px;
+    
+}
+#bottom2>div>p{
+    margin-bottom:40px;
+}

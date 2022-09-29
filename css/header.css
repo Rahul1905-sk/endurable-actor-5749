@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+*{
+    font-family: sans-serif;
+}
+
+* ::selection{
+    color:white;
+    background-color:#D7282F;
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    
+}
+
+
+#header {
+   width:90%;
+   margin:auto;
+   margin-top: 15px;
+   text-align: center;
+   position:relative;
+   top:0;
+   left:0;
+   
+}
+
+#headerImg{
+    width:38%;
+    margin:auto;
+}
+#headerImg>img{
+    width:auto;
+    margin:auto;
+}
+
+#navbar a{
+    padding:0px 16px;
+    font-size: 15px;
+    color:black;
+    text-decoration: none;
+    
+}
+#navbar a:hover{
+    color:#D7282F;
+    
+}
+
+#navbar>img{
+    width:20px;
+    padding:0px 10px;
+   
+}

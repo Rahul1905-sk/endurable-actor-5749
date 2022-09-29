@@ -1,4 +1,52 @@
+<<<<<<< HEAD
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+*{
+    font-family: sans-serif;
+}
+
+* ::selection{
+    color:white;
+    background-color:#D7282F;
+}
+
+#header {
+   width:90%;
+   margin:auto;
+   text-align: center;
+   position:relative;
+   top:0;
+   left:0;
+   
+}
+
+#headerImg{
+    width:38%;
+    margin:auto;
+}
+#headerImg>img{
+    width:100%;
+    margin:auto;
+}
+
+#navbar a{
+    padding:0px 16px;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+#navbar a:hover{
+    color:#D7282F;
+    
+}
+
+#navbar>img{
+    width:20px;
+    padding:0px 10px;
+   
+}
+>>>>>>> main
 #mid{
     width:80%;
     margin:auto;
@@ -25,6 +73,13 @@
     background-color:#D7282F;
 
 }
+<<<<<<< HEAD
+=======
+body {
+    margin:0;
+    
+}
+>>>>>>> main
 
 #clrline{
     display: flex;
@@ -32,12 +87,16 @@
 
     justify-content: center;
     width:100%;
+<<<<<<< HEAD
     margin-top: -4px;
+=======
+>>>>>>> main
     
 
 }
 #clrline>img {
     width:100%;
+<<<<<<< HEAD
 }
 
 #headerbackgroundImg{
@@ -281,3 +340,6 @@
     width:100%;
     margin-bottom: 20px;
 }
+=======
+}
+>>>>>>> main

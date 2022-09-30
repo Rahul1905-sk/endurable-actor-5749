@@ -1,0 +1,108 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+*{
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+
+.roboto{
+    font-family: "roboto";
+}
+* ::selection{
+    color:white;
+
+    background-color:#D7282F;
+}
+#header{
+    margin-bottom: 30px;
+}
+
+#line{
+    width:58%;
+    margin:auto;
+    border:1.15px solid red;
+    background-color:#D7282F;
+
+}
+
+#top{
+    width:70%;
+    margin:auto;
+    margin-top:50px;
+}
+
+#part1{
+    line-height: 150%;
+
+}
+
+#part1 h3{
+    font-size: 28px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 2px;
+   
+    
+}
+#part1>.line{
+    width:14%;
+    border:1.25px solid red;
+    background-color:#D7282F;
+
+}
+
+.high{
+    color:blue;
+    font-weight: normal;
+    cursor:pointer;
+}
+
+#parent{
+    width: 70%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+    margin-top:40px;
+    margin-bottom: -60px;
+    /* padding-bottom: -20px; */
+}
+
+#parent :nth-child(4)>p {
+    width:97%;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+#parent div{
+    border: 1px solid black;
+    text-align: center;
+    padding:10px 20px;
+}
+
+#parent div>h1{
+    font-size: 27px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 2px;
+    line-height: 30px;
+   
+}
+
+#parent div>img {
+    width:100%;
+    margin:auto;
+}
+
+#parent div>p {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+#highP{
+    font-weight: bold;
+}

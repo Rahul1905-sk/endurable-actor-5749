@@ -1,0 +1,190 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+*{
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+
+.roboto{
+    font-family: "roboto";
+}
+* ::selection{
+    color:white;
+
+    background-color:#D7282F;
+}
+#header{
+    margin-bottom: 30px;
+}
+
+#line{
+    width:58%;
+    margin:auto;
+    border:1.15px solid red;
+    background-color:#D7282F;
+
+}
+
+#top{
+    width:70.8%;
+    margin:auto;
+    margin-top:50px;
+}
+
+#part1{
+    line-height: 150%;
+
+}
+
+#part1 h3{
+    font-size: 28px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 2px;
+   
+    
+}
+#part1>.line{
+    width:15%;
+    border:1.25px solid red;
+    background-color:#D7282F;
+
+}
+#firstbox {
+    width:70%;
+    margin:auto;
+    border:1px solid grey;
+    margin-top:50px;
+}
+#bigbox{
+    display:flex;
+    margin:auto;
+    padding:10px;
+}
+
+#bigbox>div{
+    width:48%;
+    margin:auto;
+}
+#bigbox>div>:first-child{
+    font-size: 25px;
+    font-weight: lighter;
+
+    letter-spacing: -1px;
+}
+#bigbox>div>img{
+    width:100%;
+    margin:auto;
+}
+#btn {
+    width:25%;
+    margin:auto;
+}
+
+/* #btn :hover{
+    background-color: #595959;
+} */
+#btn>button{
+   color:white;
+   background-color: #D7282F;
+    padding:20px 30px;
+    border-radius: 10px;
+    font-size:18px;
+    border:none;
+    margin-bottom: 20px;
+}
+#bigbox>h4{
+    letter-spacing: -1px;
+}
+
+.roboto{
+    font-family: "roboto";
+
+}
+
+/* // second box //  */
+ 
+#secondbox{
+    width:70%;
+    margin:auto;
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:10px;
+}
+
+#secondbox>div {
+    border:1px solid black;
+    padding:25px 25px 0px;
+}
+
+#secondbox>div>img {
+    width:100%;
+    margin:auto;
+}
+#secondbox>div>.roboto {
+    font-family: "roboto";
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+#secondbox>div>h3{
+    font-size: 16px;
+}
+ #secondbox>div>.btn{
+    width:max-content;
+    margin:auto;
+  
+}
+
+ #secondbox>div>.btn>button{
+
+    color:white;
+    margin:auto;
+    background-color: #D7282F;
+     border-radius: 10px;
+     font-size:18px;
+     border:none;
+     padding:15px 40px;
+     margin-bottom: 20px;
+} 
+
+
+
+
+#secondbox>div>.line{
+    width:13%;
+    border:1.15px solid red;
+    background-color:#D7282F;
+}
+
+#secondbox>div>h2{
+    margin:20px 0px;
+    font-size:25px;
+    font-weight:750;
+    letter-spacing: -2px;
+    font-family: sans-serif;
+}
+span{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#secondbox #bigimg{
+    width:50%;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+#secondbox p {
+    margin-bottom: 35px;
+}
+
+.high{
+    color:blue;
+    font-weight: normal;
+    cursor:pointer;
+}

@@ -3,6 +3,11 @@
     font-family: sans-serif;
 }
 
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
 * ::selection{
     color:white;
     background-color:#D7282F;

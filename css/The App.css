@@ -45,42 +45,147 @@ body {
     font-size: 28px;
     font-family: 'Roboto Flex', sans-serif;
     letter-spacing: 2px;
-   
-    
 }
-#part1>.line{
+
+#part1 p{
+    margin-bottom: 50px;
+}
+
+
+.line{
     width:15%;
     border:1.25px solid red;
     background-color:#D7282F;
 
 }
 .high{
-    color:blue;
+    color:#3D7CC9;
     font-weight: normal;
     cursor:pointer;
 }
 
 #section1{
     margin-top:200px;
-    width:65%;
+    width:70%;
     display: flex;
     margin:auto;
-    border:1px solid red;
+    margin-bottom: 50px;
+
+   
 }
 
-#section1>div{
-    border:1px solid red;
-    width:49%;
+#section1 .divtext{
+    width:50%;
     margin:auto;
 }
 
-#section1>div>img {
+#section1 div{
+    width:50%;
+    margin:auto;
+}
+
+
+#section1 .imgsec{
+    width:45%;
+}
+
+#section1 .imgsec{
+    width:45%;
+}
+#section1 ul{
+   margin:10px;
+}
+
+.imgsec>img {
     width:100%;
     margin: auto;
 }
 
-#section1>div>h1{
-    font-size: 28px;
+
+#section1 .h1text{
+    font-size: 22px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 2px;
+}
+
+#section2{
+    margin-top:2000px;
+    width:70%;
+    display: flex;
+    margin:auto;
+    margin-bottom: 40px;
+}
+
+#section2 .h1text{
+    font-size: 22px;
+    font-family: 'Roboto Flex', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+#section2 .divtext{
+    width:58%;
+    margin:auto;
+    margin-top: 0px;
+    margin-left:0px;
+}
+
+#section2 div{
+    width:45%;
+    margin:auto;
+}
+
+#section2 .imgsec{
+    width:27%;
+    padding-left:-15px;
+    
+}
+
+
+
+
+
+
+
+#section3{
+    width:70%;
+    display: flex;
+    margin:auto;
+   
+}
+
+#section3 .imgsec{
+    width:27%;
+    padding: 0px 15%;
+}
+
+#section3 .divtext{
+    width:44%;
+    margin:auto;
+    margin-top: 0px;
+
+}
+#setline2{
+    width:70%;
+    margin:auto;
+    margin-bottom:20px;
+
+}
+.line1{
+    width:15%;
+    border:1.25px solid #F88D2A;
+    background-color:#F88D2A;
+}
+
+.line2{
+    width:15%;
+    border:1.25px solid #00953B;
+    background-color:#00953B;
+
+}
+
+#section3 .h1text{
+    font-size: 23px;
     font-family: 'Roboto Flex', sans-serif;
     letter-spacing: 2px;
 }

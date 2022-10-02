@@ -18,12 +18,14 @@ body {
     background-color:#D7282F;
 }
 #header{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #line{
     width:58%;
     margin:auto;
+    /* width:57%; */
+    margin-top:30px;
     border:1.15px solid red;
     background-color:#D7282F;
 

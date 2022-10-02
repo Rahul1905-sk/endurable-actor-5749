@@ -45,4 +45,15 @@
 #right>li {
     line-height: 25px;
     font-size:15px;
+    cursor: pointer;
+}
+
+
+
+#footermain>#right>li>a{
+    line-height: 25px;
+    font-size:10px;
+    color:white;
+    text-decoration: none;  
+ 
 }

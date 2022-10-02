@@ -21,14 +21,6 @@ body {
     margin-bottom: 20px;
 }
 
-#line{
-    width:57%;
-    margin-top:10px;
-    margin:auto;
-    border:1.15px solid red;
-    background-color:#D7282F;
-
-}
 
 #top{
     width:70%;
@@ -52,12 +44,22 @@ body {
 }
 
 
-.line{
+#part1>.line{
     width:15%;
     border:1.25px solid red;
     background-color:#D7282F;
 
 }
+
+#line{
+    width:58%;
+    margin:auto;
+    border:1.15px solid red;
+    background-color:#D7282F;
+
+}
+
+
 .high{
     color:#3D7CC9;
     font-weight: normal;

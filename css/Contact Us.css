@@ -106,11 +106,13 @@ form>p{
 }
 
 .btn {
-    padding:10px 40px;
+    margin-top: 10px;
+    padding:15px 35px;
     color:white;
     background-color: #d7282f;
-    border-radius: 20px;
+    border-radius: 25px;
     border:none;
+    font-size: 13px;
 }
 
 .btn:hover{

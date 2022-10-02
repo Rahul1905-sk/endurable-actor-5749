@@ -51,8 +51,6 @@ body {
     
 }
 
-#navbar>img{
+#navbar>a>img{
     width:20px;
-    padding:0px 10px;
-   
 }
